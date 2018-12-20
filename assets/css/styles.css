@@ -1,0 +1,34 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-image {
+    height: 200px;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crystal {
+    height: 200px;
+    width: 200px;
+    transition: height 1s;
+}
+
+.crystal:hover{
+    cursor: pointer;
+    height: 220px;
+}
+
+.instructions-text {
+    width: 100%;
+    padding: 10px;
+}
